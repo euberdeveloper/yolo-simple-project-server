@@ -39,6 +39,7 @@ def video():
 @cross_origin()
 def image():
     try:
+        print('image')
         if 'image' not in request.files:
             return "Image not found", status.HTTP_400_BAD_REQUEST
 
@@ -58,4 +59,4 @@ def image():
         return "Image not found", status.HTTP_500_INTERNAL_SERVER_ERROR
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=5000)

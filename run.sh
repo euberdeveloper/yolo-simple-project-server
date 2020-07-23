@@ -1,1 +1,1 @@
-gunicorn app:app -b localhost:5000 --timeout 500
+gunicorn app:app -b localhost:5000 --timeout 3000

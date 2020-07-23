@@ -8,7 +8,7 @@ OUTPUT_PATH = f'{CWD}/temp/analyzed_video.mp4'
 
 def analyze_video(path):
     
-    PathWeights = f"{CWD}/analyzer/weights/yolov3-tiny.weights"
+    PathWeights = f"{CWD}/analyzer/weights/yolov3.weights"
     PathCfgYolo = f"{CWD}/analyzer/cfg/yolov3.cfg"
     PathNames = f"{CWD}/analyzer/coco.names"
     net = cv2.dnn.readNet(PathWeights, PathCfgYolo)
