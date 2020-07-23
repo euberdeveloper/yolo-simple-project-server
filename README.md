@@ -19,7 +19,7 @@ To run the frontend (Linux Ubuntu required):
 * Open the root folder in a terminal
 * Execute `pip3 install -r requirements.txt` to install the python dependencies
 * Execute `apt install libsm6 libxrender1 libfontconfig1 libice6` to install some needed apt dependencies for opencv
-* Download from here [https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) the yolov3 weights and put them in `/`
+* Download from here [https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) the yolov3 weights and put them in `/analyzer/weights/yolov3.weights`
 * Execute `./run.sh` to start the server
 * You can now make requests on the address 'http://localhost:5000'
 
