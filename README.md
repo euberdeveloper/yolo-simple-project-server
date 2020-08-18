@@ -8,7 +8,7 @@ The servers uses yolo to recognize objects and sends back the resulted video, wh
 
 ## How was it made
 
-The server is made with python because the used yolo libraries are for python. I used Flask for the api and also gunicorn to serve the flask application.
+The server is made with **python** because the used yolo libraries are for python. I used **Flask** for the api and also **gunicorn** to serve the flask application.
 
 ## How to run it
 
